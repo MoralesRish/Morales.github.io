@@ -33,7 +33,7 @@ const Contact = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow">CONTACT </span> 
+            <span className="text-yellow">CONTACT ME</span> TO GET STARTED
           </p>
           <div className="flex md:justify-end my-5">
             <LineGradient width="w-1/2" />
@@ -54,7 +54,7 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/contact-me.webp" alt="contact" />
+          <img src="https://i.pinimg.com/originals/78/20/40/7820409a0290ce4542914c8f52b68e13.gif" alt="contact" />
         </motion.div>
 
         <motion.div
@@ -71,7 +71,7 @@ const Contact = () => {
           <form
             target="_blank"
             onSubmit={onSubmit}
-            action="https://formsubmit.co/rishellemorales10@gmail.com"
+            action="https://formsubmit.co/cadayonamattlaurence@gmail.com"
             method="POST"
           >
             <input
@@ -130,7 +130,7 @@ const Contact = () => {
               className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
               type="submit"
             >
-              SEND ME A MESSAGE
+              Make a message for us 
             </button>
           </form>
         </motion.div>

@@ -15,19 +15,19 @@ const Landing = ({ setSelectedPage }) => {
         {isAboveLarge ? (
           <div
             className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
-            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-red before:z-[-1]"
+            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-black before:z-[-1]"
           >
             <img
-              alt="image"
+              alt="profile"
               className="hover:filter hover:saturate-300 transition duration-700 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="/assets/image-profile2.png"
+              src="/assets/profile-2.jpeg"
             />
           </div>
         ) : (
           <img
-            alt="image"
-            className="z-10 w-full max-w-[600px] md:max-w-[400px]"
-            src="/assets/image-profile2.png"
+            alt="profile"
+            className="z-10 w-full max-w-[300px] md:max-w-[350px]"
+            src="/assets/profile-2.jpeg"
           />
         )}
       </div>
@@ -48,17 +48,15 @@ const Landing = ({ setSelectedPage }) => {
           <p className="text-4xl font-playfair z-10 text-center md:text-start">
              {""}
             <span
-              className="xs:relative xs:text-red xs:font-semibold z-20"
+              className="xs:relative xs:text-grey xs:font-semibold z-20"
             >
-               Vonjour I'm Rishele Fernandez Morales, 23 years of age 
-               Glad to have you here!
+               I am, Matt Laurence Cadayona
             </span>
           </p>
-          <br>
-          </br>
+
           <p className="text-2xl font-playfair z-10 text-center md:text-start">
-           A undergraduate of Central Philippine State University,
-           taking up a Bachelor of Science in Information Technology.
+          A graduating student taking up a Bachelor of Science in Information Technology 
+          I am 23 years old a working student and a dreamer one.
           </p>
         </motion.div>
 
@@ -89,14 +87,14 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <AnchorLink
-            className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
+            className=" text-deep-blue rounded-sm py-3 px-7 font-semibold
+              hover:bg-white hover:text-black transition duration-500"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
             Contact Me
           </AnchorLink>
-          <AnchorLink className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
+          <AnchorLink className="rounded-r-sm  py-0.5 pr-0.5"
           onClick={() => setSelectedPage("contact")}
           href="#contact"
           >
